@@ -23,8 +23,8 @@
 					];
 					hardeningDisable = [ "all" ];
 					packages = with pkgs; [
-						gcc11
-						clang_12
+						gcc
+						clang
 						valgrind
 						git
 						gdb
