@@ -8,12 +8,17 @@
 				description = "My flake template for C of CPP project at 42 school";
 			};
 
+			c-cpp = {
+				path = "./c-cpp";
+				description = "My flake template for C of CPP project at 42 school";
+			};
+
 			go = {
 				path = "./go";
 				description = "My flake template for GO developement";
 			};
 		};
 		
-		defaultTemplate = self.templates."c-cpp_42";
+		defaultTemplate = self.templates."c-cpp";
 	};
 }
