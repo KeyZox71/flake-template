@@ -14,6 +14,6 @@
 			};
 		};
 		
-		defaultTemplate = self.templates.c-cpp_42;
+		defaultTemplate = self.templates."c-cpp_42";
 	};
 }
