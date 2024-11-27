@@ -18,7 +18,7 @@
 				description = "My flake template for GO developement";
 			};
 			deno = {
-				path = ./go;
+				path = ./deno;
 				description = "My flake template for Deno developement";
 			};
 		};
