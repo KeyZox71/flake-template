@@ -17,6 +17,10 @@
 				path = ./go;
 				description = "My flake template for GO developement";
 			};
+			deno = {
+				path = ./go;
+				description = "My flake template for Deno developement";
+			};
 		};
 		
 		defaultTemplate = self.templates."c-cpp";
