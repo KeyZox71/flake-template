@@ -5,21 +5,22 @@
     { self }:
     {
       templates = {
-        c-cpp = {
-          path = ./c-cpp;
-          description = "My flake template for C or CPP project";
+        c = {
+          path = ./c;
+          description = "A C/CPP devShell flake template";
         };
 
         go = {
           path = ./go;
-          description = "My flake template for GO developement";
+          description = "A go devShell flake template";
         };
-        deno = {
-          path = ./deno;
-          description = "My flake template for Deno developement";
+		
+        blank = {
+          path = ./c;
+          description = "A blank devShell flake";
         };
       };
 
-      defaultTemplate = self.templates."c-cpp";
+      defaultTemplate = self.templates."blank";
     };
 }
