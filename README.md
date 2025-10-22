@@ -6,7 +6,7 @@
 
 ## Usage
 
-```
+```bash
 nix flake init -t github:keyzox71/flake-tempate#<the name of the template>
 ```
 
